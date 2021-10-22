@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text-base: 112, 112, 112;
+    --color-primary: 137, 36, 50;
+    --color-secondary: 79, 116, 139;
+  }
+  .theme-swiss {
+    --color-text-base: 112, 112, 112;
+    --color-primary: 137, 36, 50;
+    --color-secondary: 79, 116, 139;
+  }
+}
