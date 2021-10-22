@@ -15,10 +15,10 @@
                 <NuxtLink to="/">Home</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/about">About</NuxtLink>
+                <NuxtLink to="/">About</NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/contact">Contact</NuxtLink>
+                <NuxtLink to="/">Contact</NuxtLink>
               </li>
             </ul>
           </nav>

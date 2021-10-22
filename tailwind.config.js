@@ -1,12 +1,3 @@
-function withOpacity(variableName) {
-  return ({ opacityValue }) => {
-    if (opacityValue !== undefined) {
-      return `rgba(var(${variableName}), ${opacityValue})`
-    }
-    return `rgb(var(${variableName}))`
-  }
-}
-
 module.exports = {
   mode: 'jit',
   purge: [
@@ -25,15 +16,15 @@ module.exports = {
       },
       textColor: {
         skin: {
-          base: withOpacity('--color-text-base'),
-          primary: withOpacity('--color-primary'),
-          secondary: withOpacity('--color-secondary'),
+          base: '#707070',
+          primary: '#892432',
+          secondary: '#4F748B',
         },
       },
       backgroundColor: {
         skin: {
-          primary: withOpacity('--color-primary'),
-          secondary: withOpacity('--color-secondary'),
+          primary: '#892432',
+          secondary: '#4F748B',
           overlay: '#060f21',
           bgBack: '#ededed',
         },
